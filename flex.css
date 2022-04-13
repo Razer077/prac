@@ -1,0 +1,459 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    z-index: -10;
+    height: 0;
+}
+
+#main-header {
+    position: absolute;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    z-index: 1;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+#main-section {
+    text-align: center;
+    position: relative;
+    top: 10em;
+}
+
+.header-container1 {
+    display: flex;
+    align-items: center;
+}
+
+#head-image {
+    margin-right: 6em;
+}
+
+.header-a {
+    margin-right: 3em;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.header-container2 {
+    display: flex;
+    align-items: center;
+}
+
+#head-button {
+    border: none;
+    border-radius: 11em;
+    background: rgb(111, 135, 214);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.6em;
+}
+
+section {
+    display: flex;
+
+    /* justify-content: center; */
+    /* top: 0; */
+}
+
+.section-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+#imgid {
+    width: auto;
+    height: 4em;
+    margin-right: 55px;
+    filter: contrast(250%);
+}
+
+#section-button1 {
+    max-width: fit-content;
+    width: 20%;
+    border: none;
+    border-radius: 3px;
+    background: rgb(53, 52, 52);
+    padding: 0.6em;
+    color: rgb(228, 220, 220);
+}
+
+#section-button1:hover {
+    background: rgb(34, 33, 33);
+    color: rgb(107, 104, 104);
+}
+
+.container-span {
+    margin-left: 1.1em;
+    padding: 1em;
+    border-right: 1px solid grey;
+}
+
+.container-span:nth-child(3) {
+    border: none;
+}
+
+@media (max-width: 780px) {
+    .body-img {
+        display: flex;
+        flex-direction: column;
+        background-image: url('https://wallpapercave.com/wp/wp4947022.jpg');
+        height: 31em;
+        position: relative;
+    }
+
+    #main-section {
+        text-align: center;
+        position: relative;
+        top: 10em;
+    }
+
+    #section-h1 {
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #section-p1 {
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #section-button1 {
+        width: 100%;
+    }
+
+    body #imgid {
+        width: 100%;
+        height: 3.5rem;
+    }
+
+    .section2 {
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        position: relative;
+        top: 0px;
+        z-index: 10;
+    }
+
+    /* 
+    .span--video{
+        padding: 0.7rem;
+        width: 100%;
+        max-height: 450px;
+        position: absolute;
+        z-index: -1;
+        border-radius: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    } */
+
+    .section2-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0.5em;
+    }
+
+    .container-span {
+        border-right: 1px solid grey;
+        padding: 0.2rem;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    .container-span:nth-child(3) {
+        border: none;
+    }
+
+    .section3 {
+        width: 100%;
+        z-index: 1;
+        flex-direction: column;
+        background: rgb(44, 44, 44);
+        align-items: center;
+        position: relative;
+    }
+
+    .section3-container1 {
+        position: relative;
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: fit-content;
+        max-width: 19rem;
+        padding: 0.7rem;
+        background: rgb(37, 37, 37);
+        border-radius: 1.5rem;
+    }
+
+    .section3-container1:hover {
+        background: rgb(59, 59, 59);
+    }
+
+    .section3-p {
+        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: cursive;
+    }
+
+    .yt-vid {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .link-button {
+        position: relative;
+        width: 100%;
+        padding: 0.8rem;
+        background-color: rgb(31, 30, 30);
+        margin-top: 0.8rem;
+        border-radius: 50px;
+        font-size: 1.2rem;
+    }
+
+    .link-button:hover {
+        background-color: rgb(26, 26, 26) !important;
+    }
+
+    .main-footer {
+        z-index: 2;
+        display: flex;
+        position: relative;
+        background: rgb(82, 81, 81);
+        flex-direction: column;
+    }
+
+    .footer-container1 {
+        padding: 0.3rem;
+        display: flex;
+        font-size: 0.7rem;
+        color: rgb(37, 37, 37);
+        border-bottom: 1px solid #1b1b1b;
+    }
+
+    .footer-container2 {
+        display: flex;
+        font-size: 50px;
+        color: red;
+    }
+
+    .footer-div1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-container2 {
+        color: black;
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-img-class {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    .footer-img {
+        display: flex;
+        width: 3rem;
+        height: 3rem;
+        filter: contrast(150%);
+    }
+
+    .footer-img-p {
+        text-align: center;
+    }
+
+    #copyright {
+        font-size: 0.75rem;
+        color: rgb(197, 192, 192);
+        text-align: center;
+        word-spacing: 0.04rem;
+    }
+}
+
+@media (min-width: 850px) {
+    .section2 {
+        background-color: rgb(44, 44, 44);
+        border-bottom: 1px solid grey;
+    }
+
+    .section-container {
+        bottom: 1.5em;
+    }
+
+    .section2-container {
+        position: relative;
+        bottom: 4em;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .body-img {
+        display: flex;
+        background-image: url('https://wallpapercave.com/wp/wp4947022.jpg');
+        height: 500px;
+        max-height: 500px;
+        justify-content: center
+    }
+
+    .section3 {
+        top: 0;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .yt-vid {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .section3-container1 {
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: fit-content;
+        max-width: 19rem;
+        padding: 0.7rem;
+        background: rgb(37, 37, 37);
+        border-radius: 1.5rem;
+    }
+
+    .section3-container1:hover {
+        background: rgb(59, 59, 59);
+    }
+
+    .section3-p {
+        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: cursive;
+    }
+
+    .link-button {
+        width: 100%;
+        padding: 0.8rem;
+        background-color: rgb(31, 30, 30);
+        margin-top: 0.8rem;
+        border-radius: 50px;
+        font-size: 1.2rem;
+    }
+
+    .link-button:hover {
+        background-color: rgb(26, 26, 26) !important;
+    }
+
+    .main-footer {
+        display: flex;
+        background-color: grey;
+        font-size: 0.8rem;
+        flex-direction: column;
+    }
+
+    .footer-container1 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slideShow {
+    display: block;
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-button {
+    padding: 0 .25rem;
+    font-size: 4.5rem;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    background: none;
+    background-color: rgba(0, 0, 0, .2);
+    color: rgba(255, 255, 255, .6);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    right: 1rem;
+}
+
+.left {
+    left: 1rem;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+    background: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .8);
+}
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    transition: all ease-in-out 500ms;
+    transition-delay: 500ms;
+}
+
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.slide>img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

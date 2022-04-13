@@ -1,0 +1,191 @@
+		body{
+			background-image: url("pic.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.head{
+			color: whitesmoke;
+		}
+
+		.head .sky#s1{
+			position: absolute;
+			top: 10px;
+			display: inline-block;
+		}
+
+		.head .sky#s2{
+			display: block;
+			width: 44%;
+			margin: 8px auto;
+			height: 28px;
+			padding: 6px 54px;
+			/*border: 5px solid blue;*/
+		}
+
+		#s2 ul{
+			margin: auto -100px;
+			position: relative;
+			left: 22px;
+			overflow: auto;
+			list-style: none;
+		}
+
+		#s2 ul li a{
+			font-size: 33px;
+			font-style: normal;
+			color: whitesmoke;
+			font-family: 'Lobster', cursive;
+			float: left;
+			text-decoration: none;
+			margin: auto 38px;
+		}
+		
+		#s2 ul li a:link{
+			color: whitesmoke;
+		}
+
+		#s2 ul li a:visited{
+			color: navajowhite;
+		}
+
+		#s2 ul li a:hover{
+			color: navajowhite;
+		}
+
+		#s2 ul li a:active{
+			color: grey;
+		}
+
+		.head .sky#s3{
+			position: absolute;
+			top: 15px;
+			right: 40px;
+			display: inline-block;
+		}
+
+		.head .sky#s4{
+			position: absolute;
+			top: 15px;
+			right: 3px;
+			display: inline-block;
+		}
+
+		.head .sky .sky1 #r-logo{
+			border: 10px double whitesmoke;
+			border-radius: 50px;
+			display: block;
+			filter: invert(93%);
+			width: 30%;
+			margin: auto auto;
+		}
+
+		.head .sky .sky2{
+			display: block;
+			margin: 2px 50px;
+		}
+		.head .sky .sky2 #name{
+			font-size: 25px;
+			font-family: 'Redressed', cursive;
+		}
+
+		.head .sky#s4 img{
+			filter: invert(100%);
+			height: 21px;
+			width: auto;
+			margin: 1px 8px;
+		}
+
+		.head .sky#s4{
+			margin: 6px 11px;
+		}
+
+		.head .sky#s3 form{
+			margin: 6px auto;
+			padding-right: 10px;
+		}
+
+		.head .sky#s3 form #inp{
+			border: 1px solid black;
+			border-radius: 20px;
+			width: 160px;
+			height: 21px;
+			text-align: center;
+		}
+
+		section{
+			display: inline-block;
+		}
+
+		.main#m1 iframe{
+			display: none;
+			border: 10px double blue;
+			border-radius: 50px;
+			top: 0px;
+			border-block-start: none;
+			border-block-end-style: none;
+			border-right: inset darkred;
+			border-left: 4px inset antiquewhite;
+		}
+
+		.main#m1 p{
+			color: white;
+			display: inline-block;
+			border: 5px double darkgoldenrod;
+			border-radius: 50px;
+			border-bottom-width: 10px;
+			border-block-start-style: none;
+			width: 526px;
+			font-size: 20px;
+			padding: 22px;
+			font-family: cursive;
+	    }
+
+		.main#m1 iframe{
+			border: 10px double blue;
+			border-radius: 50px;
+			top: 0px;
+		}
+
+		.main #ytvid{
+			color: white;
+			font-family: cursive;
+			display: inline-block;
+		}
+
+		abbr {
+			text-decoration: none;
+		}
+
+		form  {
+			position: relative;
+			border: 2px solid white;
+			border-radius: 50px;
+			top: 100px;
+			height: fit-content;
+			display: inline-block;
+			width: 50%;
+			color: white;
+			text-align: left;
+		}
+
+		.form-class {
+			padding: 15px 40px;
+			margin: 10px 10px;
+		}
+
+		.form-class label{
+			font-family: 'Lobster';
+			font-size: 20px;
+		}
+
+		.form-class input[type="text"], .form-class textarea {
+			width: 90%;
+			padding: 10px auto;
+			font-size: 15px;
+		}
+
+		.forma input[type="submit"]{
+			background: grey;
+			width: 30%;;
+		}
